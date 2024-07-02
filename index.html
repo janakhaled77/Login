@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="inner form-container text-center m-auto w-75 shadow-lg">
+                <h1 class="mt-5 text-info fonts">Smart Login System</h1>
+                <div class="mb-3">
+                    <label for="login-email" class="form-label"></label>
+                    <input type="email" class="form-control bg-transparent text-white p-placeholders" id="login-email" placeholder="Enter Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="login-password" class="form-label"></label>
+                    <input type="password" class="form-control bg-transparent text-white p-placeholders" id="login-password" placeholder="Enter Your Password">
+                </div>
+                <button type="button" class="btn btn-outline-info w-75 mb-3 mt-3" id="loginBtn">Login</button>
+                <p id="login-error-message" class="text-danger"></p>
+                <div class="slice mb-5 text-center">
+                    Don't have an account? <a href="register.html">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="javascript/script.js"></script>
+</body>
+</html>

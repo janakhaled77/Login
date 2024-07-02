@@ -1,0 +1,16 @@
+body{
+    background-color:#24353f;
+}
+.slice{
+    color: white;
+}
+a{
+    color: white;
+}
+.p-placeholders::placeholder{
+    color: white !important;           
+}
+.navbar-toggler{
+    color: white;
+    margin: 10px;
+}
